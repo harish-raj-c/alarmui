@@ -1,42 +1,106 @@
-# sv
+# Alarm UI
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern alarm clock user interface built with **SvelteKit** and **TypeScript**. The application is designed for a circular smart display with an intuitive and minimal user experience.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Modern circular UI
+- Create, edit, and delete alarms
+- Enable or disable alarms
+- Repeat schedule selection
+- Snooze configuration
+- Alarm sound selection
+- Ringing screen
+- Responsive Svelte components
 
-```sh
-# create a new project
-npx sv create my-app
+## Tech Stack
+
+- SvelteKit
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+
+## Project Structure
+
+```
+src/
+├── lib/
+│   ├── components/
+│   ├── screens/
+│   ├── stores/
+│   ├── services/
+│   ├── utils/
+│   └── types/
+├── routes/
+└── app.html
 ```
 
-To recreate this project with the same configuration:
+## Installation
 
-```sh
-# recreate this project
-npx sv@0.16.3 create --template minimal --types ts --install npm alarm-ui
+Clone the repository:
+
+```bash
+git clone https://github.com/harish-raj-c/alarmui.git
 ```
 
-## Developing
+Move into the project:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+cd alarmui
+```
 
-```sh
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Run the Application
+
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Open your browser at:
 
-To create a production version of your app:
+```
+http://localhost:5173
+```
 
-```sh
+## Production Build
+
+Build the application:
+
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+## Screens
+
+- Home Screen
+- Alarm List
+- Alarm Editor
+- Alarm Type
+- Repeat Selection
+- Sound Selection
+- Snooze Settings
+- Ringing Screen
+
+## Future Improvements
+
+- Multiple alarm profiles
+- Cloud synchronization
+- Custom alarm sounds
+- Dark and light themes
+- Voice-controlled alarm management
+
+## License
+
+This project is for learning and development purposes.
