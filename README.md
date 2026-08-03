@@ -101,6 +101,3 @@ npm run preview
 - Dark and light themes
 - Voice-controlled alarm management
 
-## License
-
-This project is for learning and development purposes.
